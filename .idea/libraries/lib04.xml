@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="lib04">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/spring04_aop/lib/spring-beans-4.2.4.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/spring04_aop/lib/spring-core-4.2.4.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/spring04_aop/lib/spring-expression-4.2.4.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/spring04_aop/lib/spring-test-4.2.4.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/spring04_aop/lib/spring-web-4.2.4.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/spring04_aop/lib/com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/spring04_aop/lib/spring-context-4.2.4.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/spring04_aop/lib/com.springsource.org.aopalliance-1.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/spring04_aop/lib/log4j-1.2.16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/spring04_aop/lib/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/spring04_aop/lib/spring-aop-4.2.4.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

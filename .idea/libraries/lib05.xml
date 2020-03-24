@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="lib05">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/spring05_jdbc/lib/spring-test-4.2.4.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/spring05_jdbc/lib/mysql-connector-java-5.1.39-bin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/spring05_jdbc/lib/spring-jdbc-4.2.4.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/spring05_jdbc/lib/spring-core-4.2.4.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/spring05_jdbc/lib/log4j-1.2.16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/spring05_jdbc/lib/spring-beans-4.2.4.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/spring05_jdbc/lib/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/spring05_jdbc/lib/spring-aop-4.2.4.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/spring05_jdbc/lib/spring-expression-4.2.4.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/spring05_jdbc/lib/spring-context-4.2.4.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/spring05_jdbc/lib/c3p0-0.9.5.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/spring05_jdbc/lib/mchange-commons-java-0.2.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/spring05_jdbc/lib/spring-tx-4.2.4.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

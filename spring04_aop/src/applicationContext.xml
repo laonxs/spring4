@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- 经典的基于代理的Aop开发 -->
+    <!--<import resource="aop1.xml"/>-->
+
+    <!--基于aspectJ切面传统开发-->
+    <!--<import resource="aop2.xml"/>-->
+
+    <!--基于xml配置方案整合aspectJ框架实现aop-->
+    <!--<import resource="aop3.xml"/>-->
+
+    <!--基于注解方案整合aspectj框架实现aop-->
+    <import resource="aop4.xml"/>
+
+</beans>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+    <!-- IOC入门案例的配置，使用空参构造实例化对象 -->
+    <!--使用空参构造的方法实例化对象-->
+    <!--scope的默认值是：singleton（单例），对应还有prototype（多例）-->
+    <bean name="bean1" class="cn.ade.domain.Bean1"/>
+
+    <!--DI的入门案例-->
+    <bean id="bean2" class="cn.ade.domain.Bean2">
+        <!--对应属性必须提供get、set方法-->
+        <property name="info" value="show"/>
+    </bean>
+
+    <!-- 使用静态工厂的方法实例化对象 -->
+    <!--<bean name="bean3" class="cn.ade.utils.Bean3Factory" factory-method="createBean3"/>-->
+
+    <!-- 使用实例工厂的方法实例化对象 -->
+    <!--<bean name="bean3Factory" class="cn.ade.utils.Bean3Factory"/>
+    <bean name="bean3" factory-bean="bean3Factory" factory-method="getBean3"/>-->
+
+    <!--测试bean的作用域-->
+    <!--scope的默认值是：singleton-->
+    <!--<bean name="bean1" class="cn.ade.domain.Bean1" scope="singleton"/>-->
+
+    <!-- Bean的声明周期 -->
+    <bean name="bean4" class="cn.ade.domain.Bean4" init-method="MyInitMethod" destroy-method="MyDestroyMethod"
+          scope="singleton">
+        <property name="info" value="Bean4"/>
+    </bean>
+    <bean class="cn.ade.utils.MyBeanPostProcess"/>
+</beans>

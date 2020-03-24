@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="spring02_annotation:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/spring02_annotation_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="spring02_annotation/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="spring02_annotation" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib" />
+          <element id="library" level="project" name="junit-4.12" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

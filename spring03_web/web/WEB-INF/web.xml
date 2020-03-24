@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <!-- 监听器：ContextLoaderListener，它实现了 ServletContextListener
+        在这个 listener 中，当服务器启动时，将 ApplicationContext 对象，其实是它的一个实现类
+        WebApplicationContext,对象存入到了 ServletContext 中 -->
+    <listener>
+        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+    </listener>
+
+    <!--在 web.xml 文件中配置 applicationContext.xml 文件的位置
+    默认情况下会在 WEB-INF 目录 下查找 applicationContext.xmls
+    如果 applicationContext.xml 文件不是在默认位置，我们可以在 web.xml 文件中配置-->
+    <context-param>
+        <!-- contextConfigLocation 它是在 listener 中声明的一个常量，描述的就是 spring 配置文件的位置 -->
+        <param-name>contextConfigLocation</param-name>
+        <!-- classpath：代表在当前工程的类路径下查找 -->
+        <param-value>classpath:applicationContext.xml</param-value>
+    </context-param>
+
+</web-app>

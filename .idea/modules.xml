@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring00_ioc_di/spring00_ioc_di.iml" filepath="$PROJECT_DIR$/spring00_ioc_di/spring00_ioc_di.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring01_attribute_injection/spring01_attribute_injection.iml" filepath="$PROJECT_DIR$/spring01_attribute_injection/spring01_attribute_injection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring02_annotation/spring02_annotation.iml" filepath="$PROJECT_DIR$/spring02_annotation/spring02_annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring03_web/spring03_web.iml" filepath="$PROJECT_DIR$/spring03_web/spring03_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring04_aop/spring04_aop.iml" filepath="$PROJECT_DIR$/spring04_aop/spring04_aop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring05_jdbc/spring05_jdbc.iml" filepath="$PROJECT_DIR$/spring05_jdbc/spring05_jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring06_transaction/spring06_transaction.iml" filepath="$PROJECT_DIR$/spring06_transaction/spring06_transaction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/spring4.iml" filepath="$PROJECT_DIR$/.idea/spring4.iml" />
+    </modules>
+  </component>
+</project>
